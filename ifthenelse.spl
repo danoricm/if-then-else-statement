@@ -1,0 +1,12 @@
+# ifthenelse.spl
+PROGRAM
+    VAR
+        x : INTEGER;
+    BEGIN
+        x := 5;
+        IF x > 6 THEN
+            WRITELN("x is greater than 6");
+        ELSE
+            WRITELN("x is less than or equal to 6");
+        ENDIF;
+    END.

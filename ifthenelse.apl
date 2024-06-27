@@ -1,0 +1,7 @@
+⍝ ifthenelse.apl
+x ← 5
+:If x > 6
+    'x is greater than 6'
+:Else
+    'x is less than or equal to 6'
+:EndIf

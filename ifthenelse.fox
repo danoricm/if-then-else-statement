@@ -1,0 +1,8 @@
+* ifthenelse.fox
+x = 5
+
+IF x > 6
+    ? "x is greater than 6"
+ELSE
+    ? "x is less than or equal to 6"
+ENDIF

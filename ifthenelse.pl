@@ -1,0 +1,8 @@
+# ifthenelse.pl
+my $x = 5;
+
+if ($x > 6) {
+    print "x is greater than 6\n";
+} else {
+    print "x is less than or equal to 6\n";
+}

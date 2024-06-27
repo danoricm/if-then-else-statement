@@ -1,0 +1,8 @@
+/* ifthenelse.pli */
+DCL x FIXED DECIMAL(5) INIT(5);
+
+IF x > 6 THEN
+    PUT LIST('x is greater than 6');
+ELSE
+    PUT LIST('x is less than or equal to 6');
+END IF;
